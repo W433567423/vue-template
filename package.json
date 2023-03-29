@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview",
-    "prepare": "husky install"
+    "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.2.47"
