@@ -29,9 +29,6 @@
     "vue-tsc": "^1.2.0"
   },
   "lint-staged": {
-    "*.{js,ts,json,vue}": [
-      "eslint --cache --fix",
-      "git add"
-    ]
+    "*.{js,ts,json,vue}": "eslint --cache --fix"
   }
 }
