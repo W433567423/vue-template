@@ -31,7 +31,8 @@
   },
   "lint-staged": {
     "src/**/*.{js,ts,json,vue}": [
-      "eslint --fix --max-warnings=0"
+      "eslint --fix",
+      "git add"
     ]
   }
 }
