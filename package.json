@@ -33,5 +33,6 @@
   },
   "lint-staged": {
     "*.{js,ts,json,vue}": "eslint --fix"
-  }
+  },
+  "http.proxyAuthorization": "false"
 }
