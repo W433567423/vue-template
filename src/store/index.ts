@@ -1,5 +1,5 @@
 import Vuex from 'vuex'
-const files = import.meta.glob(['../store/**/*.ts', '!../store/**/type.ts'], { eager: true })
+const files = import.meta.glob(['../store/**/*.ts', '!../store/**/type.ts', '!../store/**/*.d.ts'], { eager: true })
 interface IModulesObj {
   [key: string]: any
 }
