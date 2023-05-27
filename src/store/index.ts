@@ -8,7 +8,7 @@ for (const x in files) {
   // console.log(x.split('/')[x.split('/').length - 2], files[x].default)
   modulesObj[x.split('/')[x.split('/').length - 2]] = (files[x] as any).default
 }
-console.log(modulesObj)
+// console.log(modulesObj)
 
 export default new Vuex.Store({
   state: {
